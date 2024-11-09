@@ -237,7 +237,7 @@ header {
 }
 
 .navigation ul li a:hover {
-    color: #6b4226; /* Tamnija boja za hover efekat */
+    color: #6b4226; 
 }
 
 main {
@@ -329,7 +329,7 @@ body, html {
 }
 
 .container {
-    max-width: 1000px; /* Povećana širina kontejnera */
+    max-width: 1000px; 
     margin: 0 auto;
     padding: 20px;
 }
@@ -408,7 +408,7 @@ table.ponude td {
     font-size: 1rem;
     color: #4a4a4a;
     line-height: 1.6;
-    max-width: 800px; /* Ograničena širina teksta */
+    max-width: 800px; 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -638,7 +638,7 @@ header h15 {
 }
 
 .navigation ul li a:hover {
-    color: #6b4226; /* Tamnija boja za hover efekat */
+    color: #6b4226; 
 }
 .subheading {
     text-align: center;
