@@ -530,7 +530,7 @@ table.volontiranje td {
     line-height: 1.6;
 }
 
-footer {
+footer1 {
     background-color: #9e7e4e; 
     color: white;
     text-align: center;
@@ -539,7 +539,9 @@ footer {
     margin-top: 30px;
     font-size: 0.9rem;
 }
-
+footer1 p {
+    font-size: 1.1rem;
+}
 form {
     margin-top: 20px;
     background-color: #fff;
