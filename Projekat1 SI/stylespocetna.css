@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f1e1;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-image: url('mapa.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #9e7e4e;
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Navigacija {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Navigacija ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Navigacija ul li {
+    display: inline;
+}
+
+.Navigacija ul li a {
+    color: #9e7e4e;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.Navigacija ul li a:hover {
+    color: #6b4226; 
+}
+
+
+.okvir {
+    background-color: #9e7e4e;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+p {
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #9e7e4e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: stretch; 
+}
+
+.grid-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: bold;
+    height: 250px;
+    border-radius: 12px;
+    background-color: #9e7e4e;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.grid-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.grid-item#istanbul { background-image: url('istanbul.jpg'); background-size: cover; background-position: center; }
+.grid-item#london { background-image: url('london.jpg'); background-size: cover; background-position: center; }
+.grid-item#rim { background-image: url('rim.jpg'); background-size: cover; background-position: center; }
+.grid-item#pariz { background-image: url('pariz.jpg'); background-size: cover; background-position: center; }
+.grid-item#dubrovnik { background-image: url('dubrovnik.jpg'); background-size: cover; background-position: center; }
+.grid-item#moskva { background-image: url('moskva.jpg'); background-size: cover; background-position: center; }
+
+.grid-item span {
+    position: relative;
+    z-index: 2;
+}
+
+
+.Informacije {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.Kontakt {
+    background-color: #9e7e4e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+}
+
+.Kontakt h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.Kontakt p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #9e7e4e;;
+    color: #f4f1eb;
+    text-align: center;
+    padding: 1.5rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.1rem;
+}

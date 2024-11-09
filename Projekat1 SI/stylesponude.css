@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #f4f1eb; 
+}
+
+.container {
+    max-width: 1000px; /* Povećana širina kontejnera */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:  #9e7e4e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.Navigacija {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Navigacija ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Navigacija ul li {
+    display: inline;
+}
+
+.Navigacija ul li a {
+    color: #9e7e4e;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.Navigacija ul li a:hover {
+    color: #6b4226;
+}
+.podnaslov {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7a7a7a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table.ponude {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.ponude th, table.ponude td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table.ponude th {
+    background-color:  #9e7e4e;
+    color: white;
+}
+
+table.ponude td {
+    background-color: #f9f9f9;
+}
+
+.rim-text, .bali-text {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #4a4a4a;
+    line-height: 1.6;
+    max-width: 800px; /* Ograničena širina teksta */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+video {
+    width: 80%; 
+    max-width: 500px; 
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: #9e7e4e;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}

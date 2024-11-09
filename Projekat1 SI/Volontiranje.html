@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volontiranje</title>
+    <link rel="stylesheet" href="stylesvolontiranje.css"> 
+</head>
+<body>
+<main>
+    <nav class="Navigacija">
+        <ul>
+            <li><a href="Pocetna.html">Početna</a></li>
+            <li><a href="O nama.html">O nama</a></li>
+            <li><a href="Ponude.html">Ponude</a></li>
+            <li><a href="Volontiranje.html">Volontiranje</a></li>
+            <li><a href="Putuj.html">Putuj</a></li>
+        </ul>
+    </nav>
+</main>
+    <div class="container">
+
+        <header>
+            <h1>VOLONTIRANJE</h1>
+        </header>
+
+        <p class="podnaslov">
+            Volontiranje u turističkoj agenciji predstavlja izvrsnu priliku za sve one koji su strastveni prema putovanjima, žele steći novo iskustvo i doprinijeti uspjehu jedne dinamične industrije. Kroz volontiranje, možete steći vrijedna znanja i vještine, upoznati nove ljude i proširiti svoje horizonte.
+        </p>
+
+        <h2 class="podnaslov">Zašto volontirati u turističkoj agenciji?</h2>
+
+        <table class="volontiranje">
+            <thead>
+                <tr>
+                    <th>Razlog</th>
+                    <th>Opis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Stjecanje praktičnog iskustva</td>
+                    <td>Volontiranje vam omogućuje da steknete praktično iskustvo u različitim područjima turističke industrije, kao što su rezervacije, organizacija putovanja, marketing i prodaja.</td>
+                </tr>
+                <tr>
+                    <td>Razvoj vještina</td>
+                    <td>Tokom volontiranja ćete razviti važne vještine poput komunikacije, rada u timu, organizacije, rješavanja problema i upravljanja vremenom.</td>
+                </tr>
+                <tr>
+                    <td>Upoznavanje turističke industrije</td>
+                    <td>Steći ćete uvid u funkcioniranje turističke agencije i upoznati se s najnovijim trendovima u turizmu.</td>
+                </tr>
+                <tr>
+                    <td>Mogućnost zaposlenja</td>
+                    <td>Volontiranje može biti prvi korak prema zaposlenju u turističkoj industriji. Mnogi poslodavci rado zapošljavaju motivirane i iskusne volontere.</td>
+                </tr>
+                <tr>
+                    <td>Osobni razvoj</td>
+                    <td>Volontiranje će vam pomoći da povećate svoje samopouzdanje, proširite svoju mrežu kontakata i steknete nova prijateljstva.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+
+        <table class="volontiranje">
+            <thead>
+                <tr>
+                    <th>Obaveza</th>
+                    <th>Opis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pomoć pri rezervacijama</td>
+                    <td>Primanje i obrađivanje upita za rezervacije, izrada ponuda.</td>
+                </tr>
+                <tr>
+                    <td>Organizacija putovanja</td>
+                    <td>Priprema putnih dokumenata, koordinacija s partnerima (hoteli, avio kompanije).</td>
+                </tr>
+                <tr>
+                    <td>Marketing i prodaja</td>
+                    <td>Pomoć pri kreiranju marketinških materijala, sudjelovanje u prodajnim aktivnostima.</td>
+                </tr>
+                <tr>
+                    <td>Administrativni poslovi</td>
+                    <td>Odgovaranje na upite klijenata, vođenje evidencije.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="podnaslov">Prednosti volontiranja</h2>
+
+        <ul class="tekst1">
+            <li><strong>Besplatno učenje:</strong> Steći ćete vrijedna znanja i vještine bez plaćanja školarine.</li>
+            <li><strong>Mogućnost napredovanja:</strong> Dobri volonteri često imaju priliku za napredovanje i preuzimanje odgovornijih zadataka.</li>
+            <li><strong>Mreža kontakata:</strong> Upoznati ćete ljude iz turističke industrije i steći korisne kontakte za budućnost.</li>
+            <li><strong>Osobno zadovoljstvo:</strong> Pomoći ćete drugima da ostvare svoje snove o putovanjima i osjećati ćete se korisno.</li>
+        </ul>
+        <h2 class="podnaslov">Prijava za volontiranje</h2>
+
+        <form action="submit_form.php" method="POST">
+            <div class="forma">
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" required>
+            </div>
+
+            <div class="forma">
+                <label for="prezime">Prezime:</label>
+                <input type="text" id="prezime" name="prezime" required>
+            </div>
+
+            <div class="forma">
+                <label for="datum">Datum rođenja:</label>
+                <input type="date" id="datum" name="datum" required>
+            </div>
+
+            <div class="forma">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="forma">
+                <label for="broj">Broj telefona:</label>
+                <input type="tel" id="broj" name="broj" required>
+            </div>
+
+            <div class="forma">
+                <button type="submit" class="submit-btn">Pošaljite prijavu</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Turistička Agencija</p>
+    </footer>
+
+</body>
+</html>

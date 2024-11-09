@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putuj sa nama</title>
+    <link rel="stylesheet" href="stylesputuj.css">
+</head>
+<body>
+    <main>
+        <nav class="Navigacija">
+            <ul>
+                <li><a href="Pocetna.html">Početna</a></li>
+                <li><a href="O nama.html">O nama</a></li>
+                <li><a href="Ponude.html">Ponude</a></li>
+                <li><a href="Volontiranje.html">Volontiranje</a></li>
+                <li><a href="Putuj.html">Putuj</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <div class="container">
+
+        <header>
+            <h1>PUTUJ SA NAMA</h1>
+        </header>
+
+        <form action="#" method="POST">
+            <div class="forma">
+                <label for="ime">Ime</label>
+                <input type="text" id="ime" name="ime" required>
+            </div>
+
+            <div class="forma">
+                <label for="prezime">Prezime</label>
+                <input type="text" id="prezime" name="prezime" required>
+            </div>
+
+            <div class="forma">
+                <label for="godiste">Godište</label>
+                <input type="number" id="godiste" name="godiste" min="1900" max="2024" required>
+            </div>
+
+            <div class="forma">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="forma">
+                <label for="broj">Broj telefona</label>
+                <input type="tel" id="broj" name="broj" required>
+            </div>
+
+            <div class="forma">
+                <label for="spol">Spol</label>
+                <select id="spol" name="spol" required>
+                    <option value="muski">Muški</option>
+                    <option value="zenski">Ženski</option>
+                </select>
+            </div>
+
+            <div class="forma">
+                <label for="destinacija">Destinacija</label>
+                <input type="text" id="destinacija" name="destinacija" required>
+            </div>
+
+            <div class="forma">
+                <label for="pasos">Broj pasoša</label>
+                <input type="text" id="pasos" name="pasos" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Prijavi se</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Turistička Agencija</p>
+    </footer>
+
+</body>
+</html>
